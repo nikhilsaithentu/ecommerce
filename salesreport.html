@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="sales_reports.css">
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  </style>
+</head>
+<body>  
+  <header>
+    <h1 style="margin-bottom: 20px;">Admin Dashboard</h1>
+    <div class="grid-container">
+      <div>
+        <h2>All Sales</h2>
+        <button id="showAllSalesBtn">All Sales</button>
+      </div>
+      <div>
+        <h2>Category Wise</h2>
+        <div class="category-buttons">
+          <button id="showCashSalesBtn">Cash Sales</button>
+          <button id="showCreditSalesBtn">Credit Sales</button>
+        </div>
+      </div>
+    </div>
+    <div class="dateFilters">
+      <label for="fromDate">From Date:</label>
+      <input type="date" id="fromDate" name="fromDate">
+      <label for="toDate">To Date:</label>
+      <input type="date" id="toDate" name="toDate">
+      <button id="getOrdersByDateRange">Filter By Date</button>
+    </div>
+  </header>
+  <div id="ordersContainer"></div>
+ 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="salesreport.js"></script>
+</body>
+</html>

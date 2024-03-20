@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Dashboard</title>
+  <link rel="stylesheet" href="customerdashboard.css">
+</head>
+<body>
+  <h1>Welcome</h1>
+  <button class="menu-toggle">&#9776;</button> <!-- Hamburger button -->
+  <div id="sidebar">
+    <div id="customerInfo"></div>
+  </div>
+  <div class="product-grid"></div>
+  <div id="cart">CART</div> <!-- Cart section -->
+  <h2><div id="totalPrice" class="card"></div></h2> <!-- Total price section -->
+  <div>
+    <label for="paymentMethod">Payment Method:</label>
+    <select id="paymentMethod">
+      <option value="cash">Cash</option>
+      <option value="credit">Credit</option>
+    </select>
+    <button id="paymentButton">payment</button>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="customerdashboard.js"></script>
+</body>
+</html>

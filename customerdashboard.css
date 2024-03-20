@@ -1,0 +1,196 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Sidebar styles */
+  #sidebar {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  /* Hamburger button styles */
+  .menu-toggle {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  /* Product grid styles */
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-card {
+    background-color: #0f0f0f;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card h3 {
+    margin-bottom: 10px;
+    color: white;
+  }
+  .product-card p {
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .product-card button {
+    display: block;
+    width: 100%;
+    background-color: #4e4949;
+    color:#131212;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Cart section styles */
+  #cart {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  /* Total price section styles */
+  #totalPrice {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Payment section styles */
+  label {
+    font-weight: bold;
+  }
+  
+  #paymentMethod {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  margin-bottom: 7px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#ordersContainer {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.order {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.order:last-child {
+  border-bottom: none;
+}
+
+.order p {
+  margin: 0;
+}
+
+.order .orderId {
+  font-weight: bold;
+}
+
+.order .orderDate {
+  color: #888;
+}
+
+.order .orderDetails {
+  margin-top: 5px;
+  color: #333;
+}
+
+  
+  #paymentButton {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.card {
+  background-color: #363434;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+#totalprice {
+  font-size: medium;
+  color:white;
+}
+
+body {
+  background: url('https://previews.123rf.com/images/pornpholspthrf/pornpholspthrf2004/pornpholspthrf200400073/145619156-shopping-bag-paper-black-color-mockup-online-shopping-concept-vector-design-of-flat-icon-on-isolated.jpg') no-repeat center center fixed;
+  background-size: cover;
+}

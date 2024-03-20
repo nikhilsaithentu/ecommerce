@@ -1,0 +1,38 @@
+admin:https://firestore.googleapis.com/v1/projects/e-commerce-4e958/databases/(default)/documents/Admin
+category:https://firestore.googleapis.com/v1/projects/e-commerce-4e958/databases/(default)/documents/Category
+purchase:https://firestore.googleapis.com/v1/projects/e-commerce-4e958/databases/(default)/documents/Purchase
+customer:https://firestore.googleapis.com/v1/projects/e-commerce-4e958/databases/(default)/documents/Customer
+inventory:https://firestore.googleapis.com/v1/projects/e-commerce-4e958/databases/(default)/documents/inventory
+
+Sample:
+{
+  "documents": [
+    {
+      "name": "projects/e-commerce-4e958/databases/(default)/documents/Category/1",
+      "fields": {
+        "name": {
+          "stringValue": "cosmetics"
+        },
+        "categoryID": {
+          "stringValue": "c1"
+        }
+      },
+      "createTime": "2024-03-15T06:20:53.769761Z",
+      "updateTime": "2024-03-15T06:21:20.334796Z"
+    },
+    {
+      "name": "projects/e-commerce-4e958/databases/(default)/documents/Category/2",
+      "fields": {
+        "name": {
+          "stringValue": "electronics"
+        },
+        "customerId": {
+          "stringValue": "E1"
+        }
+      },
+      "createTime": "2024-03-15T06:22:08.106256Z",
+      "updateTime": "2024-03-15T06:22:08.106256Z"
+    }
+  ]
+}
+

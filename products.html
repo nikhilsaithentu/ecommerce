@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management</title>
+    <link rel="stylesheet" href="inventory.css">
+    <!-- Include jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include your custom JavaScript file -->
+    <script src="/product.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Inventory Management</h1>
+        <button id="addProductBtn">Add Product</button>
+        <button id="displayProductsBtn">Display Products</button>
+        <button id="updateProductBtn">Update Product</button>
+        <button id="deleteProductBtn">Delete Product</button>
+        <div id="addProductForm" style="display: none;">
+            <h2>Add Product</h2>
+            <select id="productCategory">
+                <!-- Options for product categories will be loaded dynamically -->
+            </select>
+            <input type="text" id="productName" placeholder="Enter Product Name">
+            <input type="number" id="productQuantity" placeholder="Enter Quantity">
+            <input type="number" id="productPrice" placeholder="Enter Price per Unit">
+            <button id="submitProductBtn">Submit</button>
+        </div>
+        <div id="displayProductForm" style="display: none;">
+            <h2>Display Products</h2>
+            <select id="displayCategory">
+                <option value="">All Categories</option>
+                <!-- Options for product categories will be loaded dynamically -->
+            </select>
+            <select id="displayProducts">
+                <!-- Options for products will be loaded dynamically based on selected category -->
+            </select>
+        </div>
+        <div id="updateProductForm" style="display: none;">
+            <h2>Update Product</h2>
+            <select id="updateProducts">
+                <!-- Options for products will be loaded dynamically based on selected category -->
+            </select>
+            <input type="text" id="updateProductName" placeholder="Enter New Product Name">
+            <input type="text" id="updateProductCategory" placeholder="Enter New Product Category">
+            <input type="number" id="updateProductQuantity" placeholder="Enter New Quantity">
+            <input type="number" id="updateProductPrice" placeholder="Enter New Price per Unit">
+            <button id="submitUpdateProductBtn">Update</button>
+        </div>
+        <div id="deleteConfirmation" style="display: none;">
+            <h2>Delete Product</h2>
+            <select id="productsForDeletion">
+                <!-- Options for products will be loaded dynamically -->
+            </select>
+            <button id="confirmDeleteBtn">Confirm Delete</button>
+        </div>
+    </div>
+</body>
+</html>

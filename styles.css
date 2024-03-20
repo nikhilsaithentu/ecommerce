@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+   /* flex-wrap: wrap;*/
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    margin-top: 15%;
+}
+
+h1{
+    text-align: center;
+    align-items: center;
+}
+body {
+    background: url('https://png.pngtree.com/background/20210715/original/pngtree-cute-style-online-subscription-service-background-picture-image_1284607.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.box {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: #5d8ba0;
+}

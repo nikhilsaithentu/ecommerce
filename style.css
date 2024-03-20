@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://img.freepik.com/free-vector/hand-drawn-shopping-pattern-design_23-2149628702.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 250px;
+    padding: 2rem 10rem,1rem;
+    margin: 10px auto;
+    background-color: rgba(7, 7, 7, 1); /* Adding opacity to the background */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+h1 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 1.2rem;
+    align-items: center;
+    text-align: center;
+}
+
+form input {
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #e4e4e4;
+    height: 10px;
+}
+
+button {
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    width: 90%;
+    background: rgb(17, 107, 143);
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgba(17, 107, 143, 0.877);
+}
+
+input:focus {
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.terms {
+    margin-top: 0.2rem;
+}
+
+.terms input {
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.terms label {
+    font-size: 50px;
+}
+
+.terms a {
+    color: rgb(139, 138, 219);
+    text-decoration: none;
+}
+
+.member {
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: #ffffff;
+}
+
+.member a {
+    color: rgb(17, 107, 143);
+    text-decoration: none;
+}
